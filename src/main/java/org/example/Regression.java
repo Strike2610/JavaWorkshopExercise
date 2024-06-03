@@ -6,6 +6,9 @@ import weka.core.converters.CSVLoader;
 import weka.classifiers.evaluation.Evaluation;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
+import weka.filters.Filter;
+import weka.filters.unsupervised.attribute.Remove;
+import weka.filters.unsupervised.instance.RemoveWithValues;
 
 import java.io.File;
 import java.util.Random;
@@ -18,7 +21,19 @@ public class Regression {
         // Load cars.csv file
 
 
-        // Set target attribute
+        // Features to keep
+
+
+        // Remove unwanted features
+
+
+        // Apply the filter
+
+
+        // Remove instances of missing values
+
+
+        // Set test attribute
 
 
         // Split data into training and test sets
